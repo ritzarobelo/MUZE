@@ -1,0 +1,111 @@
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+.page-content{
+	background-color: lightgrey;
+}
+.list h5{
+	margin: 0;
+}
+
+.img-fluid{
+	max-width: 100%;
+	display: block;
+}
+
+.cofee{
+	padding: 0;
+	
+}
+
+.bg-breakfast{
+	background-image: url( "../images/1_wh8ldtT5Ade3eTjmWxAk5w.jpeg");
+}
+
+.bg-beans{
+	background-image: url( "../images/8b47fa9c82a082a8a75dd0dbae2ff359.jpg");
+}
+
+.bg-coffee{
+	background-image: url( "../images/Moon Power Tarot Deck.jpg");
+}
+
+.bg-cookies{
+	background-image: url( "../images/b5ca0379989481f8b2f39126d8e8af7e.jpg");
+}
+
+.bg-lunch{
+	background-image: url( "../images/Ramoune Tarot Card Deck.jpg");
+}
+
+.card.menu{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-align: center;
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.60);
+}
+
+.menu .card-content{
+	padding: 40px 0;
+}
+
+.menu h4{
+	margin: 0;
+	font-size: 20px;
+}
+
+.menu p{
+	margin: 0;
+	font-size: 12px;
+}
+
+.menu a{
+	color: white;
+}
+
+.menus .card-content{
+	padding: 10px;
+	text-align: center;
+}
+
+.menus h3{
+	font-size: 16px;
+	color: #2d2d2d;
+	margin-bottom: 0;
+}
+
+.menus h4{
+	font-size: 12px;
+	color: #666;
+}
+
+.menus p{
+	font-size:12px;
+	color: #1A4D02;
+}
+
+.product{
+	color: #0c9f67;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.price{
+	color: palevioletred;
+	font-size: 16px;
+	font-weight: 600;
+}
+.button-green{
+	background-color: #0C9F67 !important;
+}
+
+.productname{
+	color: black;
+	margin-top: 5%;
+}
