@@ -3,215 +3,206 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>App</title>
+<title>MUZE</title>
 <link href="css/framework7.min.css" rel="stylesheet">
 <link href="css/material-icons.css" rel="stylesheet">
 <link href="css/f7-icons.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet"> 
 </head>
 
-<body>
 	
-	<div id="app">
+<body class="color-theme-pink">
+<div id="app">
       <!-- Statusbar overlay -->
       <div class="statusbar"></div>
 
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main view-init">
-        
-		  	<section class="panel panel-left panel-cover">
+       
+		  <section class="panel panel-left panel-cover">
+		  		<div class="block">
+				<a href="index.html"><img src="images/LOGO..png" class="img-fluid" alt="logo2"></a>
+			  	</div>
+			  
 			  	<div class="block">
-				  Panel izquierdo				  
-				</div>
-				<div class="block">
-					<div class="list media-list">
+			  		<div class="list media-list">
 						<ul>
+						
+						
+							
 							<li>
-								<a href="/list/" class="item-content item-link panel-close">
+								<a href="/home/" class="item-content item-link panel-close">
 									<div class="item-media">
-										<i class="material-icons">account_circle</i>
+										<i class="material-icons">brightness_3</i>
 									</div>
+									
 									<div class="item-inner">
-										<div class="item-title-row">
-										<h5 class="item-title">List</h5>
-										</div>
-										<div class="item-text">
-											Contenido del enlace
-										</div>
-										<div class="item-row">
-											<div class="item-cell">
-												Left
+											<div class="item-title-row">
+										<h5 class="item-title">Home</h5>
 											</div>
-											<div class="item-cell">
-												Right
-											</div>
-										</div>
+										<div class="item-text">Back to your roots.</div>
 									</div>
 								</a>
 							</li>
+							
+							
 							<li>
 								<a href="/card/" class="item-content item-link panel-close">
 									<div class="item-media">
-										<i class="material-icons">account_circle</i>
+										<i class="material-icons">brightness_6</i>
 									</div>
+									
 									<div class="item-inner">
-										<div class="item-title-row">
-										<h5 class="item-title">Card</h5>
-										</div>
-										<div class="item-text">
-											Contenido del enlace
-										</div>
+											<div class="item-title-row">
+										<h5 class="item-title">Card Decks</h5>
+											</div>
+										<div class="item-text">A new path is about to open</div>
 									</div>
 								</a>
 							</li>
+							
+							
+							<li>
+								<a href="/menu/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">brightness_4</i>
+									</div>
+									
+									<div class="item-inner">
+											<div class="item-title-row">
+										<h5 class="item-title">Stones</h5>
+											</div>
+										<div class="item-text">We will guard your path.</div>
+									</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="/info/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">brightness_7</i>
+									</div>
+									
+									<div class="item-inner">
+											<div class="item-title-row">
+										<h5 class="item-title">Crystals</h5>
+											</div>
+										<div class="item-text">We will light the path you walk.</div>
+									</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="/formexample/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">brightness_5</i>
+									</div>
+									
+									<div class="item-inner">
+											<div class="item-title-row">
+										<h5 class="item-title">Orders</h5>
+											</div>
+										<div class="item-text">The mystical energies are close.</div>
+									</div>
+								</a>
+							</li>
+							
 							<li>
 								<a href="/tabs/" class="item-content item-link panel-close">
 									<div class="item-media">
-										<i class="material-icons">account_circle</i>
+										<i class="material-icons">brightness_2</i>
 									</div>
+									
 									<div class="item-inner">
-										<div class="item-title-row">
-										<h5 class="item-title">Tabs</h5>
-										</div>
-										<div class="item-text">
-											Contenido del enlace
-										</div>
+											<div class="item-title-row">
+										<h5 class="item-title">About us</h5>
+											</div>
+										<div class="item-text">Our amazing team.</div>
 									</div>
 								</a>
 							</li>
-							<li>
-								<a href="/form/" class="item-content item-link panel-close">
-									<div class="item-media">
-										<i class="material-icons">account_circle</i>
-									</div>
-									<div class="item-inner">
-										<div class="item-title-row">
-										<h5 class="item-title">Form</h5>
-										</div>
-										
-									</div>
-								</a>
-							</li>
+							
+							
+							
 						</ul>
-					</div>					
-				</div>
-			</section>
+					</div>
+			  	</div>
+		  </section>
         
-		  
-		 <section data-name="home" class="page">
+		  <section data-name="home" class="page">
 
           <!-- Top Navbar -->
-          <nav class="navbar">
+          <div class="navbar">
             <div class="navbar-inner">
-              	<div class="title">App</div>
-				<div class="right">
-					<a href="#" class="link panel-open" data-panel="left">
-						<i class="material-icons">menu</i>
-					</a>  
+              <div class="title"> Home</div>
+            	<div class="right">
+				<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
 				</div>
-            </div>
-          </nav>
+			 </div>
+          </div>
 
           <!-- Scrollable page content -->
           <div class="page-content">
-            
-			  	<article class="card menu bg-breakfast">
-					<a href="/menu/">
-						<div class="overlay">
-							<div class="card-content">
-								<h4>Breakfast</h4>
-								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit felis</p>
-							</div>
-						</div>
-					</a>
-				</article>
 			  
-			  	<article class="card menu bg-coffee">
-					<a href="#">
-						<div class="overlay">
-							<div class="card-content">
-								<h4>Coffee</h4>
-								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit felis</p>
-							</div>
-						</div>
-					</a>
-				</article>
-			  
-			  	<article class="card menu bg-lunch">
-					<a href="#">
-						<div class="overlay">
-							<div class="card-content">
-								<h4>Lunch</h4>
-								<p>Simple, delicious..</p>
-							</div>
-						</div>
-					</a>
-				</article>
-			  
-			  	<article class="card menu bg-cookies">
-					<a href="#">
-						<div class="overlay">
-							<div class="card-content">
-								<h4>Cookies</h4>
-								<p>Perfect baked</p>
-							</div>
-						</div>
-					</a>
-				</article>
-			  
-          </div>
+			  <img src="images/logooo.png"class="img-fluid" alt="profile">
+        	
+			  <article class="card menu bg-breakfast a">
 			
+				  <div class="overlay">
+				  
+			  		<div class="card-content">
+						<h4>Orders</h4>
+					
+					</div>
+				</div>
+			
+			  </article>
+			  
+			  <article class="card menu bg-beans a">
+				  <div class="overlay">
+				  
+			  		<div class="card-content">
+						<h4>Configuration</h4>
+					</div>
+				</div>
+			  </article>
+			  
+			    <article class="card menu bg-coffee a">
+				  <div class="overlay">
+				  
+			  		<div class="card-content">
+						<h4>Contacts</h4>
+					</div>
+				</div>
+			  </article>
+			  
+			  
+			   <article class="card menu bg-cookies a">
+				  <div class="overlay">
+				  
+			  		<div class="card-content">
+						<h4>Messages</h4>
+					</div>
+				</div>
+			  </article>
+			  
+			   <img src="images/galxy.png"class="img-fluid" alt="profe">
+			  
+          </div>
         </section>
-		  
       </div>
-    </div>
+    </div>	
 	
-	<div class="login-screen modal-in">
-  <!-- Default view-page layout -->
-  <div class="view">
-    <div class="page">
-      <!-- page-content has additional login-screen content -->
-      <div class="page-content login-screen-content">
-        <div class="login-screen-title">My App</div>
-        <!-- Login form -->
-        <form>
-          <div class="list">
-            <ul>
-              <li class="item-content item-input">
-                <div class="item-inner">
-                  <div class="item-title item-label">Username</div>
-                  <div class="item-input-wrap">
-                    <input type="text" name="username" placeholder="Username">
-                    <span class="input-clear-button"></span>
-                  </div>
-                </div>
-              </li>
-              <li class="item-content item-input">
-                <div class="item-inner">
-                  <div class="item-title item-label">Password</div>
-                  <div class="item-input-wrap">
-                    <input type="password" name="password" placeholder="Password">
-                    <span class="input-clear-button"></span>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="list">
-            <ul>
-              <li>
-                <a href="#" class="item-link list-button   ">Sign In</a>
-              </li>
-            </ul>
-            <div class="block-footer">Some text with login information.</div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
 	
-	<script src="js/framework7.min.js"></script>
-	<script src="js/my-app.js"></script>
+	
+	
+	
+	
+	
+	
+<script src="js/framework7.min.js"></script>
+<script src="js/my-app.js"></script>	
+	
+	
 </body>
 </html>
