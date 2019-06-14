@@ -50,6 +50,16 @@ var myApp = new Framework7({
 		path: '/chackra/',
     	url: 'chackra.html',
     	name: 'chackra',
+  		},
+		{
+		path: '/formexample/',
+    	url: 'formexample.html',
+    	name: 'formexample',
+  		},
+		{
+		path: '/tabs/',
+    	url: 'tabs.html',
+    	name: 'tabs',
   		}
 		
 	]
